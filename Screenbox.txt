@@ -1,6 +1,9 @@
+This Application helps to record screen and download the video of the same once done. For user convinence the status of the operation will be shown while recording the screen.
+
 STEPS :
 1. Select the screen you want to record
 2. After selecting the screen, Start the recording
 3. Once the recording is done, Stop it
 4. Recorded video will be displayed on the Right side of the screen
 5. Play it and save it by right-click on the video
+
