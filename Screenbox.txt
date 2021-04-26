@@ -7,3 +7,4 @@ STEPS :
 4. Recorded video will be displayed on the Right side of the screen
 5. Play it and save it by right-click on the video
 
+NOTE : The audio of the screen recording is purely based on the quality of voice coming from the external source ( speakers ), this application only records voice using mic.
