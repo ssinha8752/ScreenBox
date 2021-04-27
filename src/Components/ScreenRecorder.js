@@ -95,7 +95,7 @@ function ScreenRecorder() {
       <br></br> 5. Play it and save it by right-click on the video
       <br></br>
       <br></br>Status : <span style={{color:"red", fontWeight:400, fontSize:"20px"}}>{error ? `${status} ${error.message}` : status}</span></p>
-      <br></br>PLEASE NOTE : The audio of the screen recording is purely based on the quality of voice coming from the external source ( speakers ), this application only records voice using mic.
+            <br></br>PLEASE NOTE : The audio of the screen recording is purely based on the quality of voice coming from the external source ( speakers ), this application only records voice using mic.
       </div>
       <div style={{alignContent:"center"}}> 
       <Player srcBlob={mediaBlob} />
