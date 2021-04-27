@@ -82,13 +82,20 @@ function ScreenRecorder() {
       </section>
       </article>
       <div style={{display:"flex"}}>
-      <div style={{ margin: "100px"}}>
-      <p>STEPS : <br></br> 1. Select the screen you want to record
+      <div style={{ margin: "100px", width:"40%"}}>
+      <p>
+      This Application helps to record screen and download the video of the same once done. For user convinence the status of the operation will be shown while recording the screen.
+      <br></br>
+      <br></br>
+      STEPS : 
+      <br></br> 1. Select the screen you want to record
       <br></br> 2. After selecting the screen, Start the recording
       <br></br> 3. Once the recording is done, Stop it
       <br></br> 4. Recorded video will be displayed on the Right side of the screen
       <br></br> 5. Play it and save it by right-click on the video
-      <br></br><br></br>Status : <span style={{color:"red", fontWeight:400, fontSize:"20px"}}>{error ? `${status} ${error.message}` : status}</span></p>
+      <br></br>
+      <br></br>Status : <span style={{color:"red", fontWeight:400, fontSize:"20px"}}>{error ? `${status} ${error.message}` : status}</span></p>
+      <br></br>PLEASE NOTE : The audio of the screen recording is purely based on the quality of voice coming from the external source ( speakers ), this application only records voice using mic.
       </div>
       <div style={{alignContent:"center"}}> 
       <Player srcBlob={mediaBlob} />
